@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: dec281c0a7060a242b9d3851061437ed
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: CHARACTER CUSTOM RIGHub001
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGSpine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGSpine3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLArm1
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLArm2
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGLLegDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGRLegDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHARACTER CUSTOM RIGSpine4
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Climbing Ladder(1)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character
+      parentName: Climbing Ladder(1)(Clone)
+      position: {x: -0.7133131, y: 41.408016, z: 0.000001814634}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 0.001514, y: 0.001514, z: 0.001418}
+    - name: CHARACTER CUSTOM RIGHub001
+      parentName: Climbing Ladder(1)(Clone)
+      position: {x: 0.000009536743, y: 25.650143, z: 0.0000009536743}
+      rotation: {x: 0.48164284, y: -0.51324564, z: -0.62681735, w: 0.33421427}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CHARACTER CUSTOM RIGLLeg1
+      parentName: CHARACTER CUSTOM RIGHub001
+      position: {x: 0.000032424927, y: 0.0000076293945, z: 3.1828706}
+      rotation: {x: -0.1458351, y: 0.9878568, z: 0.048299238, w: -0.023202226}
+      scale: {x: 1.0000011, y: 0.99999917, z: 1.0000002}
+    - name: CHARACTER CUSTOM RIGLLeg2
+      parentName: CHARACTER CUSTOM RIGLLeg1
+      position: {x: -9.533051, y: 0.00005340576, z: 0}
+      rotation: {x: 0.02084136, y: 0.0073285787, z: 0.14055102, w: 0.989827}
+      scale: {x: 0.99999946, y: 1.0000011, z: 1.0000006}
+    - name: CHARACTER CUSTOM RIGLLegAnkle
+      parentName: CHARACTER CUSTOM RIGLLeg2
+      position: {x: -16.134018, y: 0.0000038146973, z: 0}
+      rotation: {x: 0.010509865, y: -0.03155713, z: -0.7489521, w: 0.6617889}
+      scale: {x: 1.0000002, y: 0.9999996, z: 0.99999887}
+    - name: CHARACTER CUSTOM RIGLLegDigit11
+      parentName: CHARACTER CUSTOM RIGLLegAnkle
+      position: {x: -4.159691, y: -0.000015258789, z: 0.00000047683716}
+      rotation: {x: -0.0063957563, y: 0.002172352, z: -0.08381549, w: 0.9964584}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: CHARACTER CUSTOM RIGRLeg1
+      parentName: CHARACTER CUSTOM RIGHub001
+      position: {x: 0.000034332275, y: 0.0000076293945, z: -3.1828706}
+      rotation: {x: -0.14757471, y: 0.9854691, z: -0.0600575, w: -0.058868475}
+      scale: {x: 0.99999976, y: 1, z: 1.0000001}
+    - name: CHARACTER CUSTOM RIGRLeg2
+      parentName: CHARACTER CUSTOM RIGRLeg1
+      position: {x: -9.533047, y: 0.000049591064, z: 0.0000019073486}
+      rotation: {x: -0.020840526, y: -0.0073486674, z: 0.1409478, w: 0.98977035}
+      scale: {x: 1.0000001, y: 0.99999905, z: 1}
+    - name: CHARACTER CUSTOM RIGRLegAnkle
+      parentName: CHARACTER CUSTOM RIGRLeg2
+      position: {x: -16.134018, y: 0, z: 0}
+      rotation: {x: 0.0340343, y: -0.03829912, z: -0.74617547, w: 0.66377497}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: CHARACTER CUSTOM RIGRLegDigit11
+      parentName: CHARACTER CUSTOM RIGRLegAnkle
+      position: {x: -4.159683, y: 0, z: 0.00000047683716}
+      rotation: {x: 0.006395718, y: -0.0021722883, z: -0.083815366, w: 0.9964584}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: CHARACTER CUSTOM RIGSpine1
+      parentName: CHARACTER CUSTOM RIGHub001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000010430813, y: -0.000000014901161, z: -0.0008639991, w: -0.99999964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHARACTER CUSTOM RIGSpine2
+      parentName: CHARACTER CUSTOM RIGSpine1
+      position: {x: -2.0211926, y: 0, z: -0.000000074505806}
+      rotation: {x: -0.00000076056534, y: -0.00000012171299, z: 0.030368172, w: 0.9995388}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: CHARACTER CUSTOM RIGSpine3
+      parentName: CHARACTER CUSTOM RIGSpine2
+      position: {x: -2.0284996, y: 0, z: 0}
+      rotation: {x: -0.000000779696, y: -0.0000000039153742, z: -0.053331442, w: -0.9985769}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: CHARACTER CUSTOM RIGSpine4
+      parentName: CHARACTER CUSTOM RIGSpine3
+      position: {x: -2.0214348, y: -0.0000076293945, z: 0}
+      rotation: {x: 0.0000000011227711, y: -0.000000005310587, z: 0.057571445, w: 0.9983414}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: CHARACTER CUSTOM RIGSpine5
+      parentName: CHARACTER CUSTOM RIGSpine4
+      position: {x: -2.0216007, y: -0.0000076293945, z: 0}
+      rotation: {x: -0, y: 0.00000008940696, z: 0.043119486, w: 0.9990699}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: CHARACTER CUSTOM RIGribcage
+      parentName: CHARACTER CUSTOM RIGSpine5
+      position: {x: -2.0105362, y: -0.0000076293945, z: -0.000000014901161}
+      rotation: {x: 0.0000000586477, y: -0.0000000025266402, z: 0.010094788, w: 0.99994904}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: CHARACTER CUSTOM RIGSpine
+      parentName: CHARACTER CUSTOM RIGribcage
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000005289517, y: 0.0000022603315, z: 0.096786715, w: -0.9953052}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: CHARACTER CUSTOM RIGribcage001
+      parentName: CHARACTER CUSTOM RIGSpine
+      position: {x: -5.0007534, y: 0, z: -0.000000014901161}
+      rotation: {x: -0.000005066395, y: -0.000002771616, z: -0.010385126, w: -0.9999461}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: CHARACTER CUSTOM RIGLArmCollarbone
+      parentName: CHARACTER CUSTOM RIGribcage
+      position: {x: -0, y: 0, z: 0.9324453}
+      rotation: {x: 0.060525905, y: 0.492836, z: 0.16913994, w: 0.8513759}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: CHARACTER CUSTOM RIGLArm1
+      parentName: CHARACTER CUSTOM RIGLArmCollarbone
+      position: {x: -1.9525719, y: 0.0000076293945, z: 0}
+      rotation: {x: 0.18549627, y: 0.38933253, z: -0.14593905, w: 0.8903444}
+      scale: {x: 0.9999991, y: 0.99999994, z: 1.0000008}
+    - name: CHARACTER CUSTOM RIGLArm2
+      parentName: CHARACTER CUSTOM RIGLArm1
+      position: {x: -6.929035, y: 0.0000076293945, z: -0.0000019073486}
+      rotation: {x: -0.06172149, y: -0.019152552, z: -0.022720695, w: 0.9976509}
+      scale: {x: 1.0000014, y: 0.9999997, z: 0.99999994}
+    - name: CHARACTER CUSTOM RIGLArmPalm
+      parentName: CHARACTER CUSTOM RIGLArm2
+      position: {x: -6.2364655, y: 0.0000009536743, z: 0}
+      rotation: {x: -0.65743357, y: -0.03013086, z: 0.051835775, w: 0.75112337}
+      scale: {x: 1.0000042, y: 0.999999, z: 0.9999978}
+    - name: CHARACTER CUSTOM RIGRArmCollarbone
+      parentName: CHARACTER CUSTOM RIGribcage
+      position: {x: -0, y: 0, z: -0.93244493}
+      rotation: {x: 0.030654041, y: 0.5192618, z: -0.12744978, w: -0.8445023}
+      scale: {x: 1.000001, y: 1, z: 1.0000011}
+    - name: CHARACTER CUSTOM RIGRArm1
+      parentName: CHARACTER CUSTOM RIGRArmCollarbone
+      position: {x: -1.9525757, y: 0, z: 0.0000038146973}
+      rotation: {x: -0.14983332, y: -0.08370355, z: -0.15245335, w: 0.97329426}
+      scale: {x: 0.999999, y: 0.99999887, z: 1.0000012}
+    - name: CHARACTER CUSTOM RIGRArm2
+      parentName: CHARACTER CUSTOM RIGRArm1
+      position: {x: -6.9290447, y: -0.0000038146973, z: 0.0000038146973}
+      rotation: {x: 0.061721355, y: 0.019154131, z: -0.02272112, w: 0.997651}
+      scale: {x: 1, y: 1.000002, z: 0.999999}
+    - name: CHARACTER CUSTOM RIGRArmPalm
+      parentName: CHARACTER CUSTOM RIGRArm2
+      position: {x: -6.2364597, y: 0, z: -0.0000038146973}
+      rotation: {x: 0.6574333, y: 0.030133134, z: 0.051833965, w: 0.75112367}
+      scale: {x: 1.0000002, y: 0.99999934, z: 1.0000015}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

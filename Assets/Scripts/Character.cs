@@ -41,7 +41,14 @@ public class Character : MonoBehaviour,ICharacter
         {
             sequence.Kill();
         }
-        Debug.Log(currWall.GetHashCode());
+        if (currWall)
+        {
+            transform.rotation=Quaternion.Euler(0,-90,0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 90, 0);
+        }
         sequence.Append(transform.DOMoveX(wallTransforms[currWall.GetHashCode()].position.x, jumpTime));
     }
 }

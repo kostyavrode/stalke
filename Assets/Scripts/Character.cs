@@ -30,6 +30,22 @@ public class Character : MonoBehaviour,ICharacter
             transform.Translate(transform.up * Time.timeScale * 0.001f * moveSpeed);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Collision");
+        if (collision.gameObject.tag=="Obstacle")
+        {
+            Death();
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Trigger");
+        if (other.tag=="Obstacle")
+        {
+            Death();
+        }
+    }
     private void MoveForward()
     {
         transform.Translate(transform.up*Time.timeScale);
@@ -50,5 +66,13 @@ public class Character : MonoBehaviour,ICharacter
             transform.rotation = Quaternion.Euler(0, 90, 0);
         }
         sequence.Append(transform.DOMoveX(wallTransforms[currWall.GetHashCode()].position.x, jumpTime));
+    }
+    private void Death()
+    {
+        if (isAlive)
+        {
+            isAlive = false;
+            Debug.Log("Player Dead");
+        }
     }
 }
